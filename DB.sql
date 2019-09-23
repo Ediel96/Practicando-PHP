@@ -28,5 +28,6 @@ nombre_modulo varchar (150),
 number_grupo int (100),
 modelo_proyecto varchar (150),
 archivo varchar (300),
+id_curso int (50),
 primary key(id)
 );
