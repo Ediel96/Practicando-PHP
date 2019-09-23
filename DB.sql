@@ -31,3 +31,11 @@ archivo varchar (300),
 id_curso int (50),
 primary key(id)
 );
+
+UPDATE mdl_xbase_grupo_de_trabajo SET firstname = 'Hamilton', lastname = 'Acevedo', id_tipo_proyecto = 1, tipo_nombre_proyecto = 'aa',
+opcion = 'aa', tipo_modulo = '1', nombre_modulo = 'aa', number_grupo = '4', modelo_proyecto = 'Q', archivo = 'file', id_curso = 3 Where id = 1;
+
+INSERT INTO mdl_xbase_grupo_de_trabajo (id_usuario, firstname, lastname, id_tipo_proyecto, tipo_nombre_proyecto, opcion, tipo_modulo, nombre_modulo, number_grupo, modelo_proyecto, archivo) VALUES ('2', 'Paula', 'Acevedo', '1', 'Nombre de proyecto', '1', '3', 'Critico', '3', 'QW ', 'file');
+
+
+SELECT * FROM mdl_xbase_grupo_de_trabajo;
