@@ -14,3 +14,19 @@ CREATE table task (
     description varchar (250),
     PRIMARY key (id)
 );
+
+create table mdl_xbase_grupo_de_trabajo(
+id int NOT NULL AUTO_INCREMENT,
+id_usuario int (50),
+firstname varchar (150),
+lastname varchar (150),
+id_tipo_proyecto int (50),
+tipo_nombre_proyecto varchar (150),
+nombre_opcion varchar(150),
+tipo_modulo  int (50),
+nombre_modulo varchar (150),
+number_grupo int (100),
+modelo_proyecto varchar (150),
+archivo varchar (300),
+primary key(id)
+);
