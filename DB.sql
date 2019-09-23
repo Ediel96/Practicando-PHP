@@ -39,3 +39,5 @@ INSERT INTO mdl_xbase_grupo_de_trabajo (id_usuario, firstname, lastname, id_tipo
 
 
 SELECT * FROM mdl_xbase_grupo_de_trabajo;
+
+DELETE FROM mdl_xbase_grupo_de_trabajo WHERE id = 3;
